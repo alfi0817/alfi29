@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Alfi Syahri</title>
+    <style>
+        body {
+            background-color: #0b0f19;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .profile-card {
+            background-color: #111827;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            color: #ffffff;
+            width: 320px;
+            border: 2px solid #00f3ff;
+            box-shadow: 
+                0 0 15px #00f3ff,
+                0 0 30px #00f3ff,
+                inset 0 0 15px #00f3ff;
+        }
+
+        .profile-card h1 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #00f3ff;
+            text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+        }
+
+        .profile-info {
+            font-size: 1.1rem;
+            margin: 12px 0;
+            color: #e2e8f0;
+        }
+
+        .profile-info span {
+            font-weight: bold;
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <h1>KARTU PROFIL</h1>
+        <div class="profile-info">Nama: <span>Alfi Syahri</span></div>
+        <div class="profile-info">Umur: <span>17 Tahun</span></div>
+        <div class="profile-info">Tanggal Lahir: <span>17 Agustus</span></div>
+    </div>
+
+</body>
+</html>
